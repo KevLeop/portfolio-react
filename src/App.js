@@ -3,6 +3,7 @@ import Cover from "./components/cover/Cover";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
+import Slider from "./components/Slider/Slider";
 
 const App = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -21,6 +22,7 @@ const App = () => {
       <NavBar isScrolling={scrollHeight} />
       <Cover />
       <About />
+      <Slider />
     </div>
   );
 };
