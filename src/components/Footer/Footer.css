@@ -62,3 +62,9 @@
   border-color: white;
   transition: all 0.3s ease-out;
 }
+
+.design-by {
+  font-size: 18px;
+  padding-left: 50px;
+  color: white;
+}
