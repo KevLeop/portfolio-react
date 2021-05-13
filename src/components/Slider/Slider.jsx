@@ -35,6 +35,25 @@ const Slider = () => {
         offset={50}
         itemWidth={400}
         slides={slides}
+        breakpoints={{
+          960: {
+            itemWidth: 225,
+            plugins: [
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 1,
+                },
+              },
+              {
+                resolve: slidesToScrollPlugin,
+                options: {
+                  numberOfSlides: 1,
+                },
+              },
+            ],
+          },
+        }}
       />
     </div>
   );
