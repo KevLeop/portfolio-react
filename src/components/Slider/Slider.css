@@ -1,14 +1,28 @@
-.carousel-container {
+.carousel-container-frontend {
   display: flex;
   vertical-align: center;
   align-items: center;
   background-color: black;
   padding: 30px 0 30px 0;
 }
+.carousel-container-backend {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px 0 30px 0;
+}
 
-.carousel-title {
+.carousel-title-frontend {
   color: white;
-  width: 40%;
+  width: 30%;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 100px 0 100px;
+}
+.carousel-title-backend {
+  color: black;
+  width: 30%;
   text-align: center;
   font-size: 30px;
   padding: 0 100px 0 100px;
@@ -69,11 +83,13 @@
 }
 
 @media only screen and (max-width: 960px) {
-  .carousel-container {
+  .carousel-container-frontend,
+  .carousel-container-backend {
     flex-direction: column;
   }
 
-  .carousel-title {
+  .carousel-title-frontend,
+  .carousel-title-backend {
     width: 100%;
     text-align: center;
     padding: 50px 0 50px 0;

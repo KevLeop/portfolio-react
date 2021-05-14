@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Slider from "./components/Slider/Slider";
 import Info from "./components/Info/Info";
 import Footer from "./components/Footer/Footer";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -25,6 +26,7 @@ const App = () => {
       <Cover />
       <About />
       <Slider />
+      <Skills />
       <Info />
       <Footer />
     </div>
