@@ -61,8 +61,20 @@
     flex-direction: column;
   }
 
+  .skills {
+    padding: 0;
+  }
+
   .skills-det {
-    padding: 10px 0 10px 0;
+    padding: 0 0 25px 0;
     text-align: center;
+  }
+
+  .skills-title {
+    padding: 50px 0 25px 0;
+  }
+  .skills-det > h4 {
+    font-size: 25px;
+    padding: 25px 0 25px 0;
   }
 }
