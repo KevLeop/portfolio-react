@@ -22,7 +22,7 @@ const Slider = () => {
             {
               resolve: slidesToShowPlugin,
               options: {
-                numberOfSlides: 4,
+                numberOfSlides: 2,
               },
             },
             {
@@ -43,7 +43,7 @@ const Slider = () => {
                 {
                   resolve: slidesToShowPlugin,
                   options: {
-                    numberOfSlides: 3,
+                    numberOfSlides: 1,
                   },
                 },
                 {
@@ -69,7 +69,7 @@ const Slider = () => {
             {
               resolve: slidesToShowPlugin,
               options: {
-                numberOfSlides: 4,
+                numberOfSlides: 2,
               },
             },
             {
@@ -90,7 +90,7 @@ const Slider = () => {
                 {
                   resolve: slidesToShowPlugin,
                   options: {
-                    numberOfSlides: 3,
+                    numberOfSlides: 1,
                   },
                 },
                 {

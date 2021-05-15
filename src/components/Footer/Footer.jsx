@@ -10,6 +10,7 @@ const Footer = () => {
       </div>
       <div className="footer-contact">
         <h3>Contact me</h3>
+        <i className="fab fa-whatsapp"></i> <span>+51 958950668</span>
         <p> And let's get down to work</p>
       </div>
       <div className="footer-sns">

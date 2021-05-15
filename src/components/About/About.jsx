@@ -8,10 +8,11 @@ const About = () => {
       <div className="about-desc">
         <h3>Let me tell you something about me: </h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ut
-          accusantium pariatur non, corrupti quia magnam eligendi commodi saepe
-          id? Possimus molestias corrupti sed aliquam nam qui, eveniet magni
-          cum.
+          I'm 27 years old and I love programming, and seeing that projects turn
+          out the way you want them. I am a graduate in Computer Science in the
+          San Agustín National University of Arequipa-Peru. <br />
+          Actually I have a certified specialization in FullStack web
+          development, Superior Technological Institute TECSUP.
         </p>
       </div>
       <div className="about-img">
